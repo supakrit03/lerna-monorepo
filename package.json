@@ -1,0 +1,19 @@
+{
+  "name": "lerna-monorepo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "bootstrap": "lerna bootstrap --hoist",
+    "start": "lerna run start",
+    "dev": "lerna run dev",
+    "package:client": "lerna run --scope client --stream dev",
+    "test": "lerna run test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}
